@@ -1,0 +1,15 @@
+C:\Users\Aleksandr\source\repos\Route\Route\bin\Debug\net6.0\Route.exe
+C:\Users\Aleksandr\source\repos\Route\Route\bin\Debug\net6.0\Route.deps.json
+C:\Users\Aleksandr\source\repos\Route\Route\bin\Debug\net6.0\Route.runtimeconfig.json
+C:\Users\Aleksandr\source\repos\Route\Route\bin\Debug\net6.0\Route.dll
+C:\Users\Aleksandr\source\repos\Route\Route\bin\Debug\net6.0\Route.pdb
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.csproj.AssemblyReference.cache
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.AssemblyInfoInputs.cache
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.AssemblyInfo.cs
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.dll
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\refint\Route.dll
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.pdb
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\Route.genruntimeconfig.cache
+C:\Users\Aleksandr\source\repos\Route\Route\obj\Debug\net6.0\ref\Route.dll

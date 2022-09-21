@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Drawing;
+using Route.Common;
 
 namespace Route.Models
 {
-    internal class PointEntity
+    public class PointEntity
     {
-        public string Name { get; set; }
-        public Point Coordinate { get; set; }
-       // public IEnumerable<MovingWay> Ways { get; set; }
+        public string Name { get; private set; }
+        public Point2d Coordinate { get; private set; }
+        public PointEntity(string name, Point2d coordinate)
+        {
+            Name = name;
+            Coordinate = coordinate;
+        }
+
         public override string ToString()
         {
             return $"{Name} имеет координаты {Coordinate}";

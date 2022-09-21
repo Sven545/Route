@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Route.Models
 {
-    internal class MovingWay
+    public class MovingWay
     {
-        public string Name { get; set; }
-        public Road Road { get; set; }
-        public Transport Transport { get; set; }
+        public Road Road { get; private set; }
+        public Transport Transport { get; private set; }
+        public MovingWay(Road road, Transport transport)
+        {
+            Road = road;
+            Transport = transport;
+        }
+
         public double MovingCostInRuble
         {
             get
@@ -22,12 +27,23 @@ namespace Route.Models
         {
             get
             {
-                return Transport.AverageSpeed*Road.LengthInKilometers;
+                return Road.LengthInKilometers / Transport.AverageSpeed;
+            }
+        }
+        public double MovingTimeInMinutes
+        {
+            get
+            {
+                return MovingTimeInHours*60;
             }
         }
         public override string ToString()
         {
-            return  $"Способ добраться из {Road.StartPoint.Name} в {Road.EndPoint.Name} стоимостью {MovingCostInRuble} руб. с помощью {Transport.Name} за {MovingTimeInHours} часов";
+            return $"{Road.StartPoint.Name} ---> {Road.EndPoint.Name}. " +
+                $"Цена: {Math.Round(MovingCostInRuble, 3)} р. " +
+                $"Способ: {Transport.Name}." +
+                $" Расстояние: {Math.Round(Road.LengthInKilometers, 3)} км." +
+                $" Время: {Math.Round(MovingTimeInMinutes, 3)} мин";
         }
     }
 }

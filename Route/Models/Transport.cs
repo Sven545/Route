@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Route.Models
 {
-    internal class Transport
+    public class Transport
     {
         public string Name { get; set; }
 
